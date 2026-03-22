@@ -399,9 +399,7 @@
             { name: "99 Nights in the Forest",icon: "🌲", genre: "Survival", badge: "working" },
             { name: "Blox Fruits",            icon: "🍎", genre: "Action",   badge: "working" },
             { name: "Doors",                  icon: "🚪", genre: "Horror",   badge: "working" },
-            { name: "Dead Rails",             icon: "🚂", genre: "Survival", badge: "new"     },
             { name: "Evade",                  icon: "🏃", genre: "Horror",   badge: "working" },
-            { name: "Escape Tsunami",         icon: "🌊", genre: "Survival", badge: "new"     },
             { name: "RIVALS",                 icon: "⚔️", genre: "Action",   badge: "working" },
         ];
 
@@ -460,7 +458,7 @@
                         <div class="card-genre">${m.genre}</div>
                     </div>
                     <span class="card-badge ${m.badge === 'new' ? 'badge-new' : 'badge-working'}">
-                        ${m.badge === 'new' ? 'NEW' : '✓ OK'}
+                        ${m.badge === 'new' ? 'ใหม่' : '✓ ใช้ได้'}
                     </span>`;
                 grid.appendChild(card);
             });
